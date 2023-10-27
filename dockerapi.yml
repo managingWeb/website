@@ -1,8 +1,8 @@
 version: 0.2
-
+# changin in secrets
 env:
   secrets-manager:
-    AUTH_JWT: "arn:aws:secretsmanager:us-west-1:129146957775:secret:prod-tiT12m:AUTH_JWT"
+    AUTH_JWT: "arn:aws:secretsmanager:us-west-1:129146957775:secret:prod-tiT12m:JWT"
     AUTH_JWT_PRIVATE_KEY: "arn:aws:secretsmanager:us-west-1:129146957775:secret:prod-tiT12m:AUTH_JWT_PRIVATE_KEY"
     AUTH_JWT_PUBLIC_KEY: "arn:aws:secretsmanager:us-west-1:129146957775:secret:prod-tiT12m:AUTH_JWT_PUBLIC_KEY"
     AWS_S3_KEY_ID: "arn:aws:secretsmanager:us-west-1:129146957775:secret:prod-tiT12m:AWS_S3_KEY_ID"
